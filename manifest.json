@@ -6,7 +6,7 @@
     "permissions": ["activeTab"],
     "content_scripts": [
       {
-        "matches": ["*://*.indeed.com/*"],
+        "matches": ["*://*.[sites_domain].com/*"],
         "js": ["content.js"],
         "css": ["styles.css"]
       }
